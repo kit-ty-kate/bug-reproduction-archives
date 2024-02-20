@@ -1,0 +1,5 @@
+(library
+ (name x)
+; the type error only appears when preprocessing with ppxlib
+ (preprocess (pps identity))
+)
